@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosService = axios.create({
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://url-shortener-backend-ql1w.onrender.com/',
  
 })
 
