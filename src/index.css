@@ -1,0 +1,190 @@
+/* Home css */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.containers{
+    text-align: center;
+    max-height: 100vh;
+    
+}
+.containers h3{
+    font-weight: 700; 
+}
+.containers .urlSubOne h5{
+    margin-top: 2.5%;
+    font-weight: 600;
+    color: rgba(49, 47, 47, 0.867);
+
+}
+.containers .urlSubOne  div{
+    padding: 50px;
+    margin-top: 3%;
+    height: 75vh;
+    border-radius: 5px;
+    background-color: rgba(70, 199, 242, 0.917);
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.containers .urlSubOne  div div{
+    width: 50%;
+    border-radius:20px;
+    border: 2px rgb(255, 255, 255) solid;
+    
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.containers .urlSubOne div div p{
+    
+    
+    /* border: 1px solid black; */
+    border:2px  rgba(70, 199, 242, 0.917) solid;
+    /* box-shadow: 8px 5px 5px rgb(81, 80, 80); */
+    box-shadow: 5px 5px 5px rgba(70, 199, 242, 0.917);
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 900;
+    color: rgb(23, 23, 23);
+    
+
+}
+.containers .urlSubOne div div h4{
+    margin-top: 6%;
+    
+    
+}
+.containers .urlSubOne div div a{
+    
+    margin-top: 2%;
+    border:2px  rgba(70, 199, 242, 0.917) solid;
+    box-shadow: 5px 5px 5px rgba(70, 199, 242, 0.917);
+    font-weight: 900;
+
+}
+.containers .urlSubOne div div a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(70, 199, 242, 0.917);
+    box-shadow: 8px 5px 5px rgb(81, 80, 80);
+
+}
+
+.center-text {
+    text-align: center;
+  }
+
+  .welcomeContainer{
+    
+    height: 100vh;
+    background-color: rgba(70, 199, 242, 0.917);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcomeContainer div{
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50%;
+    font-weight:bold;
+    text-align: center;
+    font-weight: 900;
+    flex-direction: column;
+  }
+  .welcomeContainer div h5{
+    font-weight: 500;
+    margin-bottom: 10%;
+  }
+
+  .welcomeContainer div  a{
+    
+    margin-top: 2%;
+    border:2px  rgba(70, 199, 242, 0.917) solid;
+    box-shadow: 5px 5px 5px rgba(70, 199, 242, 0.917);
+    font-weight: 900;
+
+}
+.welcomeContainer div a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(70, 199, 242, 0.917);
+    box-shadow: 8px 5px 5px rgb(81, 80, 80);
+
+}
+
+.navbar-nav {
+    justify-content: space-between;
+
+}
+
+.navbar-brand {
+    margin-right: auto;
+    margin-left: auto;
+}
+.imgRound{
+    border-radius: 50%;
+    
+}
+.imageNext{
+    margin-left: 10%;
+ 
+  
+}
+a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+
+}
+.buttonFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.resultUrl{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(70, 199, 242, 0.917);
+    
+}
+.resultSub{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.429);
+}
+.ownButton{
+    
+    border:2px  rgba(70, 199, 242, 0.917) solid;
+    box-shadow: 5px 5px 5px rgba(70, 199, 242, 0.917);
+    font-weight: 900;
+}
+.ownButton:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(70, 199, 242, 0.917);
+    box-shadow: 8px 5px 5px rgb(81, 80, 80);
+}
