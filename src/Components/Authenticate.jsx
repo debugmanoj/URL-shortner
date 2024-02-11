@@ -7,7 +7,7 @@ function Authenticate() {
     const { id } = useParams();
     let [change,setChange]=useState("")
 
-    let Authenticate=async(id)=>{
+    let Authenticate=async()=>{
         try {
        
             let res=await AxiosService.get(`${apiRoutes.authenticate.path}/${id}`) 
@@ -26,7 +26,7 @@ function Authenticate() {
         
     }
     useEffect(()=>{
-        Authenticate(id)
+        Authenticate()
     },[])
   return <>
   <div className='welcomeContainer '>
