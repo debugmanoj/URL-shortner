@@ -7,7 +7,7 @@ import CreateUrl from "../Components/CreateUrl";
 import AllLinks from "../Components/AllLinks";
 import ResetPassword from "../Components/ResetPassword";
 import ResetForm from "../Components/ResetForm";
-
+import ThankYou from "../Components/ThankYou";
 
 
 
@@ -15,6 +15,10 @@ const AppRoutes=[
     {
         path:"/",
         element:<LandingPage/>
+    },
+    {
+        path:"/thankYou",
+        element:<ThankYou/>
     },
     {
         path:"/signUp",

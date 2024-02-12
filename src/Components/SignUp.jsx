@@ -17,7 +17,7 @@ function SignUp() {
   
       if (data.status === 200) {
         console.log("Hello, I am Added");
-        navigate("/signIn")
+        navigate("/thankYou")
 
       }
     } catch (error) {
