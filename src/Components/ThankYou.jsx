@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router'
 
 function ThankYou() {
+    let navigate=useNavigate();
   return <>
    <div className='text-center' style={{"marginTop":"10%"}} >
     <div className='' style={{"fontWeight":"900","fontSize":"30px"}}>Thank you creating the account</div>
